@@ -7,13 +7,14 @@ body {
     /* font-family: neue-kabel, sans-serif;
     font-weight: 700;
     font-style: normal; */
-    font-size: large;
+    font-size: 14px;
+    color: rgb(61, 61, 61);
 }
 
 .top-header {
     background-color: #2687cb;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding-top: 7px;
+    padding-bottom: 7px;
     display: inline-flexbox;
     white-space: nowrap;
     justify-content: end;
@@ -39,24 +40,53 @@ body {
 
 .nav-custom {
     color: #2687cb;
-    font-size: 1.3vw;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-.nav-link {
+
+/* .nav-link {
     color: #2687cb;
-}
+} */
 
 .social-icons-header {
     width: max-content;
 }
 
 .header-text {
-    font-size: 1.2vw;
+    font-size: 15px;
+}
+
+.title-bar {
+    background-color: #2687cb;
+    padding: 15px;
+    margin: auto;
+}
+
+.title-bar-text {
+    color: #fcde34;
+    font-size: 30px;
+}
+
+.blue-bg {
+    background-color: #2687cb;
+}
+
+.bullet-text {
+    color: #fcde34;
+}
+
+.title-blue {
+    color: #2687cb;
 }
 
 /* Media Queries */
 
 @media (min-width:1200px) {
+
+    .header-text {
+        font-size: 15px;
 
 }
 
@@ -72,7 +102,7 @@ body {
     }
 
     .header-text {
-        font-size: 1.6vw;
+        font-size: 15px;
     }
 }
 
@@ -90,7 +120,7 @@ body {
     }
 
     .header-text {
-        font-size: 1.9vw;
+        font-size: 15px;
 }
 
 @media (max-width: 576px) {
@@ -106,7 +136,7 @@ body {
     }
 
     .header-text {
-        font-size: 2.2vw;
+        font-size: 15px;
 }
 
 @media (max-width: 200px) {
