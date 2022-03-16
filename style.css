@@ -44,9 +44,10 @@ body {
 
 .nav-custom {
     color: #2687cb;
-    font-size: 1.1vw;
+    font-size: 1vw;
     padding-left: 10px;
     padding-right: 10px;
+    float: right;
 }
 
 .center-text {
@@ -181,6 +182,13 @@ a:visited, a:active {
     .left-content {
         text-align: left;
         padding-left: 10%;
+    }
+    .nav-custom {
+        color: #2687cb;
+        font-size: 14px;
+        padding-left: 10px;
+        padding-right: 10px;
+        float: right;
     }
     .left-content-right {
         text-align: left;
